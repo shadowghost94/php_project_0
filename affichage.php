@@ -6,6 +6,7 @@
     <title>Liste des clients</title>
 </head>
 <body>
+    <!--juste un test-->
     <a href="ajout.php">Ajouter client</a>
     <h1>Liste des clients</h1>
 

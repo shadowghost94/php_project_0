@@ -55,6 +55,7 @@
 
             <button type="submit" name="ajouter">Ajouter</button>
         </form>
+        <!--...-->
     </div>
 </body>
 </html>

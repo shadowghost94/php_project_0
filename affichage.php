@@ -1,3 +1,5 @@
+<?php include 'db.php';?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,8 +40,8 @@
                 <td> <?=$res['email']?> </td>
                 <td> <?=$res['ville']?> </td>
                 <td>
-                    <a href="modification.php">Modifier</a>
-                    <a href="suppression.php">Supprimer</a>
+                    <a href="modification.php?id=<?=$res['id']?>">Modifier</a>
+                    <a href="suppression.php?id=<?=$res['idg']?>">Supprimer</a>
                 </td>
             </tr>
 

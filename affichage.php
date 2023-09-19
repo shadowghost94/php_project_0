@@ -40,7 +40,7 @@
                 <td> <?=$res['email']?> </td>
                 <td> <?=$res['ville']?> </td>
                 <td>
-                    <a href="modification.php?id=<?=$res['id']?>">Modifier</a>
+                    <a href="modification.php?id=<?=$res['id']?>">Modifierr</a>
                     <a href="suppression.php?id=<?=$res['idg']?>">Supprimer</a>
                 </td>
             </tr>
